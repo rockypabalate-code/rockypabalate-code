@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 330" role="img" aria-labelledby="title desc">
+  <title id="title">Rocky — Full-Stack Developer</title>
+  <desc id="desc">A modern dark-blue developer banner featuring Rocky, full-stack development, APIs, automation, and a code window.</desc>
+  <defs>
+    <linearGradient id="background" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#08111f"/>
+      <stop offset="58%" stop-color="#10233a"/>
+      <stop offset="100%" stop-color="#071622"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" x2="1">
+      <stop offset="0%" stop-color="#55f1ca"/>
+      <stop offset="100%" stop-color="#6ab8ff"/>
+    </linearGradient>
+    <radialGradient id="glow">
+      <stop offset="0%" stop-color="#1d9a99" stop-opacity=".29"/>
+      <stop offset="100%" stop-color="#1d9a99" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#a8eaff" stroke-opacity=".06" stroke-width="1"/>
+    </pattern>
+    <clipPath id="clip">
+      <rect width="1200" height="330" rx="20"/>
+    </clipPath>
+  </defs>
+  <g clip-path="url(#clip)">
+    <rect width="1200" height="330" fill="url(#background)"/>
+    <rect width="1200" height="330" fill="url(#grid)"/>
+    <circle cx="1060" cy="90" r="310" fill="url(#glow)"/>
+    <circle cx="-40" cy="340" r="240" fill="url(#glow)"/>
+    <path d="M 30 293 H 1170" stroke="#86bbdc" stroke-opacity=".12"/>
+    <rect x="59" y="40" width="221" height="30" rx="15" fill="#55f1ca" fill-opacity=".09" stroke="#55f1ca" stroke-opacity=".45"/>
+    <circle cx="77" cy="55" r="4.5" fill="#55f1ca"/>
+    <text x="91" y="60" font-family="Segoe UI, Arial, sans-serif" font-size="12" font-weight="700" letter-spacing="1.5" fill="#a7fce7">BUILD · SHIP · IMPROVE</text>
+    <text x="58" y="148" font-family="Segoe UI, Arial, sans-serif" font-size="57" font-weight="800" letter-spacing="-1.8" fill="#f4f8ff">Hey, I'm <tspan fill="#72ebd4">Rocky.</tspan></text>
+    <text x="60" y="194" font-family="Segoe UI, Arial, sans-serif" font-size="27" font-weight="600" letter-spacing=".3" fill="#e4ecf6">Full-Stack Developer</text>
+    <text x="61" y="231" font-family="Segoe UI, Arial, sans-serif" font-size="17" fill="#acbfd1">Modern interfaces  ·  Reliable APIs  ·  Useful automation</text>
+    <rect x="60" y="258" width="164" height="4" rx="2" fill="url(#accent)"/>
+    <text x="61" y="280" font-family="Consolas, monospace" font-size="13" fill="#9ab5ca">github.com/rockypabalate-code</text>
+    <g transform="translate(754,49)">
+      <rect x="0" y="0" width="395" height="236" rx="13" fill="#07111f" stroke="#5e99b2" stroke-opacity=".38"/>
+      <rect x="1" y="1" width="393" height="39" rx="13" fill="#14263a"/>
+      <rect x="1" y="29" width="393" height="11" fill="#14263a"/>
+      <circle cx="22" cy="21" r="5" fill="#ff6a75"/>
+      <circle cx="40" cy="21" r="5" fill="#ffc971"/>
+      <circle cx="58" cy="21" r="5" fill="#5fe3ab"/>
+      <text x="146" y="26" font-family="Consolas, monospace" font-size="12" fill="#9baebf">developer.ts</text>
+      <g font-family="Consolas, 'Courier New', monospace" font-size="17">
+        <text x="23" y="76" fill="#b9cedf"><tspan fill="#bd96ff">const</tspan> developer = {</text>
+        <text x="44" y="108" fill="#b4cce0"><tspan fill="#71e7d0">name</tspan>: <tspan fill="#f4d08b">"Rocky"</tspan>,</text>
+        <text x="44" y="140" fill="#b4cce0"><tspan fill="#71e7d0">focus</tspan>: [<tspan fill="#f4d08b">"Web"</tspan>, <tspan fill="#f4d08b">"APIs"</tspan>],</text>
+        <text x="44" y="172" fill="#b4cce0"><tspan fill="#71e7d0">mindset</tspan>: <tspan fill="#f4d08b">"Keep building"</tspan></text>
+        <text x="23" y="204" fill="#b9cedf">};</text>
+      </g>
+    </g>
+  </g>
+</svg>
